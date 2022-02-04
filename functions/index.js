@@ -11,8 +11,8 @@ const dbRef = admin.firestore().doc('tokens/demo');
 // Twitter API init
 const TwitterApi = require('twitter-api-v2').default;
 const twitterClient = new TwitterApi({
-  clientId: {clientId},
-  clientSecret: {clientSecret},
+  clientId: 'CLIENT_ID',
+  clientSecret: 'CLIENT_SECRET',
 });
 
 const callbackURL = 'http://localhost:5000/bingbangbot/us-central1/callback';

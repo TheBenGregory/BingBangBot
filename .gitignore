@@ -7,10 +7,7 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
-#auth
-keys/
-.keys/
-/keys.js
+
 # Firebase cache
 .firebase/
 
